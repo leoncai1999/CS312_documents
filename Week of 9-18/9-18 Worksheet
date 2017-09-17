@@ -60,7 +60,7 @@ public class Example {
 3) chess(king, pawn, "queen");
 4) chess("bishop", rook, knight);
 5) chess(pawn, bishop, bishop);
-4. Write a class called Math containing the methods. 
+4. Write a class called Math containing the methods. At the end of each method, print out the result.
 Add
 Subtract 
 Multiple 
