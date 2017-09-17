@@ -1,0 +1,110 @@
+1. Expressions
+8 - 2 + "8 - 2" + (8 - 2) + 8
+109 % 100 / 2 + 3 * 3 / 2.04
+8 - 3 + 10 * 3.3 + “5 + 2” + 8.3 * 2
+
+2. At the bottom of the page, write the output produced by the following program, as it would appear on the console. 
+
+public class Example {
+	public static void main(String[] args) {
+		String scarlett = "mustard";
+		String suspect = "peacock";
+		String lounge = "ballroom";
+		String pipe = "study";
+		String dagger = "pipe";
+		String weapon = "dagger";
+		clue(weapon, suspect, pipe);
+		clue(scarlett, pipe, suspect);
+		clue(dagger, "lounge", scarlett);
+		clue(lounge, dagger, "dagger");
+		clue(pipe, "miss " + scarlett, lounge);
+	}
+	public static void clue(String suspect, String room, String weapon) {
+		System.out.println(room + " in the " + weapon + " with the " + suspect);
+	}
+}
+
+
+
+1) clue(weapon, suspect, pipe);
+2) clue(scarlett, pipe, suspect);
+3) clue(dagger, "lounge", scarlett);
+4) clue(lounge, dagger, "dagger");
+5) clue(pipe, "miss " + scarlett, lounge);
+
+3. At the bottom of the page, write the output produced by the following program, as it would appear on the console. (Though the program uses words related to chess, the output does not necessarily relate to real chess game rules.) 
+
+public class Example {
+	public static void main(String[] args) {
+		String knight = "rook";
+		String king = "pawn";
+		String bishop = "knight";
+		String pawn = "queen";
+		String rook = bishop;
+		chess(knight, king, bishop);
+		chess(bishop, knight, king);
+		chess(king, pawn, "queen");
+		bishop = "king";
+		chess("bishop", rook, knight);
+		chess(pawn, bishop, bishop);
+	}
+	public static void chess(String b, String c, String a) {
+		System.out.println("A " + a + " and a " + b + " beats a " + c);
+	}
+}
+
+
+
+1) chess(knight, king, bishop);
+2) chess(bishop, knight, king);
+3) chess(king, pawn, "queen");
+4) chess("bishop", rook, knight);
+5) chess(pawn, bishop, bishop);
+4. Write a class called Math containing the methods. 
+Add
+Subtract 
+Multiple 
+Divide 
+Square (square of one number) 
+Power (x to the y power)
+Factorial
+Implement another version of the multiply method without using *
+Implement the divide method without using a /
+
+Write a method with the parameter size that prints out the following ASCII art, based on the size.
+
+size = 0
+
+size = 1
+***
+
+size = 2
+ ****
+/****\
+
+size = 3
+    **
+   /**\
+////**\\\\
+
+size = 4
+         ***
+        /***\
+     ////***\\\\
+/////////***\\\\\\\\\
+
+size = 5
+                ****
+               /****\
+            ////****\\\\
+       /////////****\\\\\\\\\
+////////////////****\\\\\\\\\\\\\\\\
+
+size = 6
+                         **
+                        /**\
+                     ////**\\\\
+                /////////**\\\\\\\\\
+         ////////////////**\\\\\\\\\\\\\\\\
+/////////////////////////**\\\\\\\\\\\\\\\\\\\\\\\\\
+ 
