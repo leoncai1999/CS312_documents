@@ -1,6 +1,6 @@
 1. Expressions
 8 - 2 + "8 - 2" + (8 - 2) + 8
-109 % 100 / 2 + 3 * 3 / 2.04
+109 % 100 / 2 + 3 * 3 / 2.0
 8 - 3 + 10 * 3.3 + “5 + 2” + 8.3 * 2
 
 2. At the bottom of the page, write the output produced by the following program, as it would appear on the console. 
