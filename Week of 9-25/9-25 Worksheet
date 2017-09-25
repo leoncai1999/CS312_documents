@@ -41,3 +41,15 @@ expected output (look at the picture in the folder)
 
 The window is 170 pixels wide and 170 pixels tall. The background is white and the spiral is black.
 The "spiral" lines start from (0, 10), going right 160, down 150, left 150, up 140, right 140, down 130, left 130, up 120, ...
+
+4. Write a method that generates the nth fibonacci number. 
+
+fib(1) = 1
+fib(2) = 1
+fib(3) = 2
+fib(4) = 3
+fib(5) = 5
+fib(6) = 8
+fib(7) = 13
+
+The sum of the nth fibonacci number is equal to sum of the previous 2 fibbonacci numbers. 
