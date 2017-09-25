@@ -1,0 +1,43 @@
+1. Warm-Up:
+
+public class ParameterQuestion{
+ public static void main(String[] args){
+ int a = 2;
+ int b = 3;
+ int c = 2;
+ int x = a + b;
+ int y = a + 1;
+ show(3, 2);
+ show(x, y);
+ show(c, c);
+ show(a, b);
+ System.out.println(a + " " + b);
+ }
+ public static void show(int a, int b){
+ int c = a + b;
+ a = b * 2;
+ System.out.println(a + " " + b + " " + c);
+ }
+}
+List below the output produced by this program when it is run. 
+
+
+2. Write a method with the following requirements
+- Creates a drawing of n concentric circles and squares. The innermost shape will be a circle. Alternate between circles and squares.
+- Given a panel size with x and y size
+- Given a number n, draw n circles/squares
+- Given the distance required between the circles and squares. 
+- The shapes should be centered in the middle of the DrawingPanel. 
+- The square in the middle should be 2x2 pixels. 
+
+ex. Given a 500 x 500 drawing panel, with 5 shapes, and a distance of 50 pixels between the shapes, the image should look like this  (look at the picture in the folder)
+
+
+3. https://practiceit.cs.washington.edu/problem/view/bjp3/chapter3g/e13-Spiral
+Write a program in a class named Spiral that uses the DrawingPanel to draw the following figure:
+
+Java DrawingPanel close maximize minimize
+expected output (look at the picture in the folder)
+
+The window is 170 pixels wide and 170 pixels tall. The background is white and the spiral is black.
+The "spiral" lines start from (0, 10), going right 160, down 150, left 150, up 140, right 140, down 130, left 130, up 120, ...
