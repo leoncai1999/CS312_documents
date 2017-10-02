@@ -1,0 +1,76 @@
+Warm Up:
+For each call below to the following method, write the output that is produced, as it would appear on the console: 
+
+public static void ifElseMystery(int x, int y) {
+	if (x == y) {
+		x = x + 11;
+	} else if (x > 2 * y) {
+		x = 0;
+	}
+	if (x == 0 || y > x) {
+		x = x + 2;
+		y = y + 2;
+	}
+	System.out.println(x + " " + y);
+}
+
+ifElseMystery(5, 5);
+ifElseMystery(18, 4);
+ifElseMystery(3, 6);
+
+1. Write a static method named longestWord that accepts a string as its parameter and returns the length of the longest word in the
+string. A word is a sequence of one or more non-space characters (any character other than the space character, ' ' ).
+
+Here are some example calls to your method and their expected results:
+
+Call Value                                              | Returned
+--------------------------------------------------------|----------
+longestWord("to be or not to be")                       |    3
+longestWord("oh hello, how are you?")                   |    6
+longestWord("I am OK")                                  |    2
+longestWord("   this   example has     many spaces   ") |    7
+longestWord("test")                                     |    4
+longestWord("")                                         |    0
+longestWord("     ")                                    |    0
+
+Note that the string might be empty, might not contain any words, might begin with spaces, and might contain words separated by multiple
+spaces. You may assume that the string doesn't contain any other whitespace characters such as tabs or newlines. You may not use 
+auxiliary objects such as Scanner or StringTokenizer to solve this problem.
+2. Write a static method named guess that accepts two integers as parameters: a number to guess and how many tries the method
+gets to guess the number. The method will guess random numbers in the range of 1 to 10 (inclusive) and print them as it guesses them.
+If the method guesses the number, it will print "I got it!" and then return true. If it fails to guess the number in the requisite
+number of tries, it will print "I give up!" and then return false. You may assume that the number of tries given is a non-negative 
+number.
+
+Call          | Prints                | Returns
+guess(2, 5);  | 7 10 4 7 6 I give up! | false
+guess(5, 0);  | I give up!            | false
+guess(1, 10); | 2 1 I got it!         | true
+guess(-3, 3); | 9 6 2 I give up!      | false
+guess(6, 6);  | 10 10 3 6 I got it!   | true
+
+As this method has an element of randomness to it, you are to copy the format of the output, not the exact output of the sample calls.
+
+3. Write a static method called digitsInARow that takes
+   an integer n as a parameter and that returns the highest number of digits
+   that appear in a row in the base-10 representation of n.  For many numbers
+   the answer will be 1 because they don't have adjacent digits that match.
+   But for a number like 3555585, the answer is 4 because there are four
+   occurrences of the digit 5 that appear in a row.  Below are sample calls on
+   the method.
+
+        Method                  Value          Method                  Value
+         Call                  Returned         Call                  Returned
+        -------------------------------        -------------------------------
+        digitsInARow(0)           1            digitsInARow(8823)        2
+        digitsInARow(18)          1            digitsInARow(777)         3
+        digitsInARow(394)         1            digitsInARow(82888)       3
+        digitsInARow(99)          2            digitsInARow(7111171)     4
+        digitsInARow(8229)        2            digitsInARow(233333888)   5
+
+   You are NOT allowed to use a String to solve this problem.  You may assume
+   that the value passed to the method is greater than or equal to 0.
+
+   Write your solution to method digitsInARow below.
+4. https://practiceit.cs.washington.edu/problem/view/bjp3/chapter3/s14-parameterMysteryReturn
+5. https://practiceit.cs.washington.edu/problem/view/bjp3/chapter3g/e9-Squares3
