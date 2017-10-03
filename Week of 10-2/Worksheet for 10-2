@@ -51,6 +51,11 @@ guess(6, 6);  | 10 10 3 6 I got it!   | true
 
 As this method has an element of randomness to it, you are to copy the format of the output, not the exact output of the sample calls.
 
+
+3. Write a method atoi which accepts a string and returns the integer representation of the string. 
+Atoi("100")=100
+
+For your benefit:
 3. Write a static method called digitsInARow that takes
    an integer n as a parameter and that returns the highest number of digits
    that appear in a row in the base-10 representation of n.  For many numbers
