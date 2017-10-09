@@ -25,4 +25,4 @@ Given s = "leetcode", return "leotcede".
 Note:
 The vowels does not include the letter "y".
 
-6. Write a method that counts the number of print numbers less than a non-negative integer n.
+6. Write a method that counts the number of prime numbers less than a non-negative integer n.
