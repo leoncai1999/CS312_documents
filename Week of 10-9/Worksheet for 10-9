@@ -3,11 +3,15 @@ Can you always rewrite a for loop as a while loop, and a while loop as a for loo
 
 1. Write a method that takes in a String and returns the reverse of that string. 
 
-2. Write a method that takes n a String and a character, and returns the index of the first time we see the character. If the character is not found, return -1.
+2. Write a method that takes n a String and a character, and returns the index of the first time we see the character.
+If the character is not found, return -1.
 
-3. Write a method that's used for helping a person keep track of their money spent. The user should be able to continually enter the place which they spent money, and the amount they spent at each place. When they are done entering bills, they will type in "done" or "Done". Print out the amount of money they spent.
+3. Write a method that's used for helping a person keep track of their money spent. The user should be able to continually
+enter the place which they spent money, and the amount they spent at each place. When they are done entering bills, they
+will type in "done" or "Done". Print out the amount of money they spent.
 
-4. Write a method that accepts a string, and returns 1 if the string is a palindrome, and 0 if not. Palindrome means the string is exactly the same backwards and forwards.
+4. Write a method that accepts a string, and returns 1 if the string is a palindrome, and 0 if not. Palindrome means the 
+string is exactly the same backwards and forwards.
 
 Challenge:
 5. Write a function that takes a string as input and reverse only the vowels of a string.
