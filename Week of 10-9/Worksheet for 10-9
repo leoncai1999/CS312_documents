@@ -26,3 +26,4 @@ Note:
 The vowels does not include the letter "y".
 
 6. Write a method that counts the number of prime numbers less than a non-negative integer n.
+Write them in the format 1, 2, 3, 5
