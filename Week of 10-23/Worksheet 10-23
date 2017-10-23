@@ -4,7 +4,8 @@ Name1 Week1: #hours Week2: #hours Week3: #hours.....
 Name2 Week1: #hours Week2: #hours Week3: #hours.....
 
 The number of weeks is variable. For each person, caculate the average # of hours the employee worked, the week
-where they worked the most number of hours, and they total # of hours they have worked.
+where they worked the most number of hours, and they total # of hours they have worked. Print out the employee 
+who worked the most and how many hours they worked.
 Refer to the input file for a test case
 
 2.   Write a method weave that takes two integers as
