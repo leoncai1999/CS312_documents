@@ -1,0 +1,49 @@
+1. You are given a file in the following format. 
+
+Name1 Week1: #hours Week2: #hours Week3: #hours.....
+Name2 Week1: #hours Week2: #hours Week3: #hours.....
+
+The number of weeks is variable. For each person, caculate the average # of hours the employee worked, the week
+where they worked the most number of hours, and they total # of hours they have worked.
+Refer to the input file for a test case
+
+2.   Write a method weave that takes two integers as
+   parameters and that returns the result of weaving their digits together to
+   form a single number.  Two numbers x and y are weaved together as follows.
+   The last pair of digits in the result should be the last digit of x followed
+   by the last digit of y.  The second-to-the-last pair of digits in the result
+   should be the second-to-the-last digit of x followed by the
+   second-to-the-last digit of y.  And so on.
+
+   For example, consider weaving 128 with 394.  The last pair of digits in the
+   result should be 84 (because the original numbers end in 8 and 4).  The
+   second-to-the-last pair of digits in the result should be 29 (because the
+   second-to-the-last digits of the original numbers are 2 and 9).  The
+   third-to-the-last pair of digits in the result should be 13 (because the
+   third-to-the-last digits of the original numbers are 1 and 3).  Thus:
+
+        weave(128, 394)
+
+   should return 132984.  Notice that the order of the arguments is important.
+   The call weave(394, 128) would return 319248.
+
+   If one of the numbers has more digits than the other, you should imagine
+   that leading zeros are used to make the numbers of equal length.  For
+   example, weave(2384, 12) should return 20308142 (as if it were a call on
+   weave(2384, 0012)).  Similarly, weave(9, 318) should return 30198 (as if it
+   were a call on weave(009, 318)).
+
+   You may assume that the numbers passed to weave are non-negative.  You may
+   not use Strings to solve this problem; you must solve it using integer
+   arithmetic.  Write your solution to weave below.
+   
+3. Write a method digitSum that takes a non-negative
+   integer as a parameter and that returns the sum of its digits.  For example,
+   digitSum(20879) should return 26 (2 + 0 + 8 + 7 + 9).  You may assume that
+   the method is passed a value greater than or equal to 0.  You may not use a
+   String to solve this problem; you must solve it using integer arithmetic.
+
+   Write your solution to digitSum below.
+
+Challenge Problemss:
+4. Write the method power(int a, int b) which calculates a^b. Do not use multiplication or division in your solution.
